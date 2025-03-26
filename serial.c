@@ -126,8 +126,8 @@ void apply_gaussian_blur(png_bytep *row_pointers, int width, int height, int rad
 int main(int argc, char *argv[])
 {
 
-    const char *input_file = "image.png";
-    const char *output_file = "out.png";
+    const char *input_file = "spidey.png";
+    const char *output_file = "out_serial.png";
     int blur_radius = 10; // Default value
     if (argc > 1)
     {
@@ -137,6 +137,7 @@ int main(int argc, char *argv[])
             printf("Invalid blur radius. Using default value: 10\n");
             blur_radius = 10;
         }
+        input_file = argv[2];
     }
     else
     {
