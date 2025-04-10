@@ -161,7 +161,7 @@ int main(int argc, char *argv[])
     // Start measuring processing time
     printf("Starting Blurring Process\n");
     start = clock();
-    apply_gaussian_blur(row_pointers, width, height, 50);
+    apply_gaussian_blur(row_pointers, width, height, blur_radius);
     end = clock();
     cpu_time_used = ((double)(end - start)) / CLOCKS_PER_SEC;
     printf("Blurring Process Completed\n\n");
