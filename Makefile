@@ -4,7 +4,7 @@ FLAGS = -lpng -lm
 
 IMAGE=image.png
 RADIUS=100
-PROCS=64
+PROCS=4
 
 compileserial: serial.c
 	gcc -o serial $(SERIAL_DEPS) $(FLAGS)
