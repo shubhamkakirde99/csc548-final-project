@@ -1,0 +1,57 @@
+{
+    "experiment1_1000": {
+        "serial": 2.781,
+        "mpi": 0.363,
+        "cuda": 0.190
+    },
+    "experiment2_1500": {
+        "serial": 6.130,
+        "mpi": 0.805,
+        "cuda": 0.188
+    },
+    "experiment3_2000": {
+        "serial": 11.124,
+        "mpi": 1.456,
+        "cuda": 0.1955
+    },
+    "experiment4_2500": {
+        "serial": 17.724,
+        "mpi": 2.319,
+        "cuda": 0.205
+    },
+    "experiment5_3000": {
+        "serial": 25.507,
+        "mpi": 3.357,
+        "cuda": 0.219
+    },
+    "experiment6_3500": {
+        "serial": 34.796,
+        "mpi": 4.546,
+        "cuda": 0.233
+    },
+    "experiment7_4000": {
+        "serial": 45.495,
+        "mpi": 5.937,
+        "cuda": 0.252
+    },
+    "experiment8_4500": {
+        "serial": 57.527,
+        "mpi": 7.622,
+        "cuda": 0.273
+    },
+    "experiment9_5000": {
+        "serial": 71.191,
+        "mpi": 9.429,
+        "cuda": 0.285
+    },
+    "experiment10_5500": {
+        "serial": 89.092,
+        "mpi": 11.838,
+        "cuda": 0.306
+    },
+    "experiment11_15360": {
+        "serial": 377.183,
+        "mpi": 50.227,
+        "cuda": 0.719
+    }
+}

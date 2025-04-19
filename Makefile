@@ -2,9 +2,9 @@ SERIAL_DEPS = serial.c include/util.c
 MPI_DEPS = mpi.c include/util.c
 FLAGS = -lpng -lm
 
-IMAGE=image.png
+IMAGE=experiment1_1000.png
 RADIUS=100
-PROCS=4
+PROCS=16
 
 compileserial: serial.c
 	gcc -o serial $(SERIAL_DEPS) $(FLAGS)
